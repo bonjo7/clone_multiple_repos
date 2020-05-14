@@ -8,7 +8,7 @@ if [[ ! -f $apps_file ]]; then echo "$apps_file file not found"; exit 1; fi
 header=true
 linenum=1
 
-while  read git_url branch
+while  read git_url
 
 do
 
